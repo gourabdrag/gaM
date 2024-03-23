@@ -8,13 +8,4 @@ burger.addEventListener('click',()=>{
      navlist.classlist.toggle('v-class-resp');
      navbar.classlist.toggle('h-nav-resp');
 })
-//<script type="text/javascript">
 
-function val(elem) {
-    if (elem.value.length > 10) {
-            
-            alert("Only ten digit numbers allowed")
-    } else {
-        document.getElementbyId('res').innerText = "";
-            }
-}//</script>
